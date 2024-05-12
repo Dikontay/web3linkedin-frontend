@@ -1,0 +1,21 @@
+/* AuthExampleComponent.module.css */
+.container {
+    background-color: #f4f4f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .message {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .key {
+    color: #0077cc;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
