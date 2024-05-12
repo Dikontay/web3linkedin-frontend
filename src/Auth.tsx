@@ -1,23 +1,19 @@
-// AuthExampleComponent.jsx
 import React from 'react';
 import { useWallet } from '@solana/wallet-adapter-react';
+import { useNavigate } from 'react-router-dom';
 
 const AuthExampleComponent = () => {
   const wallet = useWallet();
+  const navigate = useNavigate();
 
   if (!wallet.connected) {
-    // User is not connected
     return <p>Please connect your wallet.</p>;
   }
 
-  // If the user is connected, you can access the public key like this:
-  return (
-    <div>
-      <p>Wallet is connected!</p>
-      <p>Public Key: {wallet.publicKey?.toBase58()}</p>
-      {/* You can use the public key to identify the user */}
-    </div>
-  );
+  // Redirect to the profile page once the wallet is connected
+  navigate('/profile');
+
+  return null;  // Or any fallback until the redirect occurs
 };
 
 export default AuthExampleComponent;
