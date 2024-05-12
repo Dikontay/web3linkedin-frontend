@@ -5,7 +5,6 @@ Welcome to the initial UI release of the **web3linkedin** application. This plat
 ## Prerequisites
 
 Before you start, make sure you meet the following requirements:
-- **Node.js**: Ensure Node.js is installed on your system. Download it from [nodejs.org](https://nodejs.org/).
 - **Phantom Wallet**: The Phantom wallet extension must be installed in your browser. Install it from [Phantom.app](https://phantom.app).
 
 ## Installation
