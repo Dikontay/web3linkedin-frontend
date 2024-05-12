@@ -10,10 +10,10 @@ const AuthExampleComponent = () => {
     return <p>Please connect your wallet.</p>;
   }
 
-  // Redirect to the profile page once the wallet is connected
+ 
   navigate('/profile');
 
-  return null;  // Or any fallback until the redirect occurs
+  return null;  
 };
 
 export default AuthExampleComponent;
