@@ -15,17 +15,17 @@ To set up the project on your local machine, follow these steps:
    ```bash
    git clone https://github.com/Dikontay/network/
    cd web3linkedin-frontend
-```
+   ```
 
 2. **Install Dependencies**
    ```bash
-  npm install
-```
+   npm install
+   ```
 
 3. **Run the application**
    ```bash
-  npm start
-```
+   npm start
+   ```
 
 ## Key Features
 - **Connect Your Wallet**: Begin by connecting your Phantom wallet to interact with the application.
